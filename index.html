@@ -1,0 +1,149 @@
+<!DOCTYPE html><html><head><title>U of U GIS Presentation</title><meta charset='utf-8'><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<link href='big.css' rel='stylesheet' type='text/css' />
+<style>
+  .xkcd {
+      background-image: url('http://imgs.xkcd.com/comics/seismic_waves.png');
+      background-repeat: no-repeat;
+  }
+
+  .joe {
+      background-image: url('images/who-is-joe.jpg');
+      background-repeat: no-repeat;
+  }
+  .resources {
+      background-image: url(https://www.geoplatform.gov/sites/default/files/geoconops/DHS_Geospatial_CONOPS_Community_Model_051112_1200.jpg);
+      background-repeat: no-repeat;
+  }
+</style>
+<script src='big.js'></script></head><body>
+
+<!--<div>use &harr; to navigate</div>-->
+<div>An Overview of <strong>GIS</strong> in <em>Emergency Management</em></div>
+<div><strong>Follow along at:</strong><br>http://joshgroeneveld.github.io/ gis-em</div>
+<div class="center"><em>Background</em></div>
+<div>What is <strong>emergency management?</strong></div>
+<div class="center"><strong>Coordination, coordination, coordination</strong></div>
+<div>How does it work?</div>
+<div>There are <strong>four phases</strong> of emergency management</div>
+<div><em>Response</em></div>
+<div>Response always starts at the <strong>local level</strong> and works up</div>
+<div>When local resources are <em>overwhelmed</em>, seek help from neighbors and the <strong>next level up</strong></div>
+<div>The same goes for the <em>county</em> and the <em>state</em></div>
+<div data-bodyclass="resources"></div>
+<div><strong>NIMS</strong> and <em>ICS</em></div>
+<div><em>Recovery</em></div>
+<div>Recovery is all about getting back to the <em>new</em> normal</div>
+<div>For small events, this could take <strong>days</strong> or <strong>weeks</strong></div>
+<div>For large events, it could take <em>years</em></div>
+<div><em>Mitigation</em></div>
+<div><strong>Reducing risk</strong> from potential hazards <em>before a disaster happens</em></div>
+<div>Spending money on mitigation before a disaster <a href='https://www.fema.gov/what-mitgation'> saves money</a> after a disaster</div>
+<div><em>Preparedness</em></div>
+<div>If we as citizens can be prepared <strong>beforehand</strong>, resources can go to places with the <em>most need</em> during response</div>
+<div>Shameless plug:</div>
+<div>     <img src='images/be-ready-utah.png' /></div>
+<div>Those in emergency management regularly <em>exercise</em> their capabilities to <em>test</em> their preparedness</div>
+<div>We use <strong>lessons learned</strong> from exercises to <em>build up</em> our capabilities</div>
+<div>GIS is <strong>useful</strong> in different ways for <em>each phase</em> of the cycle</div>
+<div>These phases are not <em>mutually exclusive</em></div>
+
+<div class="center"><em>Tools</em></div>
+<div><strong>Several</strong> GIS based tools exist in <em>emergency management</em></div>
+<div>The tools shown here are only a <strong>sample</strong> of what is available</div>
+<div><strong>One</strong> of these tools is something you're <em>already familiar with</em></div>
+<div class="blink"><img src='http://www.fema.gov/media-library-data/82f3492b-fa2c-451c-a733-2afa54861c06/62412.jpg' /> <em>Paper!</em></div>
+<div><strong>Paper maps</strong> are still critically important to both <em>incident command</em> as well as <em>emergency management</em></div>
+<div><strong>GIS hazard analysis tools</strong> tend to be <em>hazard-specific</em></div>
+<div><a href='https://www.fema.gov/hazus'>HAZUS</a>: earthquakes, floods and hurricanes</div>
+<div><a href='http://earthquake.usgs.gov/research/software/shakecast/'>ShakeCast</a>: earthquakes</div>
+<div><a href='http://response.restoration.noaa.gov/aloha'>ALOHA</a>: chemical plumes</div>
+<div><a href='http://www.hurrevac.com/'>HURREVAC</a>: hurricanes</div>
+<div><a href='http://www.nhc.noaa.gov/surge/slosh.php'>SLOSH</a>: hurricanes</div>
+<div><a href='http://gacc.nifc.gov/rmcc/fire_incident/'>FIMT</a>: wildfires</div>
+<div><a href='http://inasafe.org/en/'>InaSAFE</a>: multiple hazards -- free and open source</div>
+<div><a href='https://www.intermedix.com/products/webeoc/webeoc.php'>WebEOC</a>: incident management</div>
+<div>There are <strong>many</strong> apps for performing <em>damage assessment</em>, some of which rely heavily on maps</div>
+<div>Bottom line: emergency managers <strong>need</strong> the power of GIS tools to <em>analyze incident data</em> and <em>make decisions</em></div>
+
+<div class="center"><em>Success Stories</em></div>
+<div>In recent years, we have had the most exeperience dealing with <em>wildfires</em></div>
+<div>In summer of 2012, we had a number of fires <strong>exceeding 10,000 acres</strong></div>
+<div>Several of these fires caused <em>evacuations</em> and a lot of <em>road closures</em></div>
+<div>We started maintaining <strong>simple Google Maps</strong> for these fires</div>
+<div><img src='images/Dump_Fire_Map_Screenshot.jpg' /></div>
+<div>Overall, we created <strong>19 maps</strong> that received a combined total of <em>over 1.2 million views</em></div>
+<div>If your agency creates a <em>web map</em> during a disaster, it needs to look <strong>official</strong></div>
+<div data-bodyclass="joe"></div>
+<div>Following the 2012 fire season, <strong>GIS professionals from three state agencies</strong> realized that they were all trying to collect <em>the same data</em></div>
+<div>In 2013, we began <strong>working together</strong> to share maps and <strong>perimeter data</strong></div>
+<div>Sharing data is a <em>really good idea!</em></div>
+
+<div class="center"><em>Challenges</em></div>
+<div>Even with the <strong>best planning possible</strong>, new <em>challenges and problems</em> will come up during a disaster</div>
+<div>Disaster response is <strong>not the time</strong> to learn <em>new techniques and processes</em></div>
+<div>During a disaster, what counts as <em>authoritative data and information</em>?</div>
+<div>How do we handle <strong>social media</strong> and other <em>volunteered damage reports</em>?</div>
+<div>These challenges are <strong>not insurmountable</strong></div>
+<div><em>Good planning</em> makes all the difference</div>
+
+<div class="center"><em>The Way Forward</em></div>
+<div>One of the keys to solving the <strong>challenges we face</strong> is <em>building strong partnerships</em></div>
+<div>Without good partnerships, it's a lot <em>more difficult</em> to get our job done</div>
+<div>There are more networking opportunities available through the <strong>UGIC Conference</strong>, <strong>Maps on the Hill</strong>, and <strong>local GIS user groups</strong></div>
+<div><strong>Also important</strong> are partnerships with GIS professionals who have <em>been through a disaster before</em></div>
+<div>Organizations like <a href='http://www.nsgic.org/'>NSGIC</a>, <a href='http://nisconsortium.org/'>NISC</a>, and <a href='http://napsgfoundation.org/'>NAPSG</a> and others help make this happen</div>
+
+<div class="center"><em>How to Get Involved</em></div>
+<div>Are you interested in <em>getting into emergency management</em>?</div>
+<div>Great! There are a number of <strong>free training courses available</strong> through <a href='http://training.fema.gov/emi/'>FEMA</a></div>
+<div>What <strong>degrees</strong> do emergency management professionals have?</div>
+<div>Emergency management professionals are a <strong>diverse group</strong></div>
+<div>Some people have degrees in <strong>geography</strong> or <strong>GIS</strong></div>
+<div>Others have degrees in <strong>urban planning</strong>, <strong>business</strong>, <strong>accounting and finance</strong>...</div>
+<div>...<strong>communications</strong>, <strong>journalism</strong>, <strong>public policy</strong>, <strong>computer science</strong> and more!</div>
+<div>One of the best ways to <strong>get a job</strong> in emergency management is to <strong>get a internship</strong></div>
+<div>You could also <strong>volunteer</strong> at one of the many agencies involved in disaster support</div>
+
+<div class="center"><em>What other skills could be useful?</em></div>
+<div><em>Coding!</em></div>
+<div>       <img src='images/you-need-to-code.jpg' /></div>
+<div><em>Any eye for good design</em></div>
+<div>       <img src='images/why-map-portals-dont-work.jpg' /></div>
+<div>"Never make a <em>map</em> that <strong>you wouldn't wear!</strong>"</div>
+<div>...but, "A bad map <em>on time</em> is better than a <strong>good map that is late</strong>"</div>
+<div><em>Problem solving!</em></div>
+<div>       <img src='images/desktop-gis.jpg' /></div>
+<div>Both <em>GIS</em> and <em>emergency management</em> require good <strong>problem solving</strong> on a daily basis</div>
+
+<div class="center"><em>Takeaways</em></div>
+<div>Emergency management is all about <em>coordination</em></div>
+<div>Good <strong>coordination</strong> requires strong <em>partnerships</em> with agencies from <em>all jurisdictions</em></div>
+<div><em>GIS</em> is a <strong>necessary function</strong> of emergency management</div>
+<div>The <strong>power</strong> of GIS in emergency management is both <em>map making</em> and <em>data analysis</em></div>
+<div>You can get involved in emergency management and GIS by <strong>volunteering</strong> or through an <em>internship</em></div>
+<div>Success in either <strong>GIS</strong> or <strong>emergency management</strong> is not about <em>pushing buttons</em></div>
+<div>Success is based on <strong>solving problems</strong> in a <em>timely manner</em></div>
+
+<div class="center"><em>Thanks!</em></div>
+<div data-bodyclass="xkcd"></div>
+<div>Big was created by <strong>Tom MacWright</strong> <a href='https://github.com/tmcw/big'>github.com/ tmcw/ big</a></div>
+<div>Contact me: <br> <strong>Josh Groeneveld</strong> <em>@joshgroeneveld <br> jgroeneveld@utah.gov</em></div>
+<!--<div data-bodyclass="new-shiny">per slide body classes</div>-->
+
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4e36eb1ef5a1f53d6f000001');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+</body>
+</html>
